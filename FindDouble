@@ -1,0 +1,16 @@
+package Arrays;
+import java.util.*;
+
+public class DoubleFind {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double A = sc.nextInt();
+        double B = sc.nextInt();
+        double result = FindX(A,B);
+        System.out.println(result);
+    }
+    public static double FindX(double A,double B ){
+        double x =((Math.sqrt((3*A)+1))/B);
+        return x;
+    }
+}
